@@ -223,13 +223,11 @@
 
 .head{
     display: flex;
-    position: fixed;
     justify-content: space-between;
     border-bottom: 2px solid rgb(251, 127, 148);
     box-shadow: 5px 5px 5px rgba(255, 175, 175, 0.435);
     background-color: pink;
     width: 100%;
-    margin-top: -70px;
 }
 
 .navitems{

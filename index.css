@@ -139,11 +139,13 @@
 
 .popup{
     display: flex;
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky; */
+    position: fixed;
     top: 0;
-    margin-top: 1000px;
-    margin-left: 700px;
+    /* margin-top: 200px;
+    margin-left: 150px; */
+    left: 50%;
+    transform: translate(-50%,50%);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -153,7 +155,6 @@
     width: 500px;
     padding: 20px;
     font-size: 30px;
-    position: absolute;
     background-color: rgba(255, 228, 196, 0.829);
     text-align: center;
 }
